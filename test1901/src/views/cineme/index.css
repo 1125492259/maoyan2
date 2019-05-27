@@ -1,0 +1,263 @@
+#cineme{
+  position: relative;
+  top: 50px;
+}
+
+.ci_section{
+	    border-bottom: 1px solid #e6e6e6;
+    height: 44px;
+}
+.ci_gray{
+	    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 44px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.ci_city{
+	padding-left: 15px;
+	font-size: 15px;
+	color: #666;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+}
+.ci_name{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70px;
+    max-width: 19.2vw;
+}
+.ci_arrow{
+	    margin-right: 5px;
+    width: 0;
+    height: 0;
+    border: 4px solid #b0b0b0;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+.ci_entry{
+	display: flex;
+	    -webkit-box-flex: 1;
+    flex-grow: 1;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+	height: 28px;
+	font-size: 13px;
+	color: #b2b2b2;
+	margin-left: 18px;
+	border: .5px solid #e6e6e6;
+	border-radius: 5px;
+	margin-right: 15px;
+}
+.ci_entry img{
+	    width: 14px;
+    height: 14px;
+    margin-left: 3px;
+    margin-right: 4px;
+}
+.ci_entry span{
+	    font-size: 13px;
+    color: #b2b2b2;
+}
+.ci_nav{
+    width: 100%;
+    height: 40px;
+    z-index: 10;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+
+}
+.ci_tab{
+      display: flex;
+
+}
+.ci_drop{
+	    display: inline-block;
+    position: absolute;
+    top: 18px;
+    width: 0;
+    height: 0;
+    margin-left: 4px;
+    border: 4px solid transparent;
+    border-top-color: #e8e8e8;
+}
+.ci_item{
+    -webkit-box-flex: 1;
+    flex: 1;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 13px;
+    text-overflow: ellipsis;
+}
+.ci_item:nth-of-type(2)::before{
+        content: "";
+    display: block;
+    position: absolute;
+    height: 20px;
+    top: 10px;
+    left: 0;
+    border-left: 1px solid #e8e8e8;
+}
+.ci_item:nth-of-type(3)::before{
+        content: "";
+    display: block;
+    position: absolute;
+    height: 20px;
+    top: 10px;
+    left: 0;
+    border-left: 1px solid #e8e8e8;
+}
+.ci_cinema{
+    background-color: #fff;
+}
+
+
+
+
+.ci_box{
+	    padding: 13px 15px 13px 0;
+    margin-left: 15px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #e8e8e8;
+}
+.box_1{
+	    align-items: center;
+}
+.box_11{
+	    height: 23px;
+    line-height: 23px;
+    font-size: 16px;
+    color: #000;
+}
+.sp_1{
+	    line-height: 23px;
+    font-size: 16px;
+    color: #000;
+}
+.sp_2{
+	padding-top: 9px;
+    padding-left: 3px;
+}
+.box_2{
+	margin-top: 6px;
+    font-size: 13px;
+    color: #666;
+    display: flex;
+    width: 100%;
+}
+.box2_addr{
+	width: 250px;
+}
+
+.box2_ddd{
+    position: absolute;
+    right: 30px;
+        font-size: 13px;
+    color: #666;
+}
+.box_3{
+	height: 17px;
+    line-height: 17px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    overflow: hidden;
+    display: flex;
+
+}
+.box_3 div{
+
+}
+.box31{
+    color: #589daf;
+    border: 1px solid #589daf;
+}
+.box32{
+	    color: #589daf;
+    border: 1px solid #589daf;
+    margin-left: 5px;
+}
+.box33{
+	color: #f90;
+    border: 1px solid #f90;
+    margin-left: 5px;
+}
+.box34{
+	    color: #f90;
+    border: 1px solid #f90;
+    margin-left: 5px;
+}
+.box35{
+	    color: #589daf;
+    border: 1px solid #589daf;
+    margin-left: 5px;
+}
+.box_4{
+	    color: #999;
+    margin-bottom: 4px;
+}
+.box4_1{
+	display: flex;
+}
+.box4_img{
+	width: 15px;
+    height: 14px;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+.box4_img img{
+	display: block;
+	width: 100%;
+}
+.box_kk{
+	    margin-left: 0;
+    font-size: 11px;
+}
+.box_0{
+	    position: fixed;
+    z-index: 1;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 12px 11px;
+    padding: 8px;
+    border-radius: 5px;
+    background: hsla(0,0%,94%,.9);
+    color: #666;
+    font-size: 13px;
+    display: -webkit-box;
+    display: flex;
+    align-content: center;
+    margin-bottom: env(safe-area-inset-bottom);
+}
+.box_0 span{
+	    color: #666;
+    font-size: 13px;
+}
+.box0_img1{
+    width: 14px;
+    height: 14px;
+    margin-top: 2px;
+}
+.box0_img2{
+	    width: 14px;
+    height: 14px;
+    margin-top: 2px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}

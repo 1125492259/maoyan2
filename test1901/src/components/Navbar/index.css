@@ -1,0 +1,12 @@
+#lyh_navbar{
+	width: 100%;
+	height: 50px;
+	font-size: 18px;
+	color: white;
+	line-height: 50px;
+	text-align: center;
+	background-color: #e54847;
+	position: fixed;
+	overflow: hidden;
+	z-index: 999;
+}

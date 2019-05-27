@@ -1,0 +1,21 @@
+#mine{
+	  position: relative;
+      top: 50px;
+}
+.active{
+	color: #df2d2d;
+
+}
+.mine_ul{
+	width: 100%;
+	display: flex;
+    border-bottom: 2px solid #df2d2d;
+}
+.mine_ul li{
+	flex:1;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 16px;
+	height: 46px;
+	line-height: 46px;
+}

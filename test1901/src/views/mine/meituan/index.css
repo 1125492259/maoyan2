@@ -1,0 +1,43 @@
+.me_div1{
+   width: 95%;
+   background:  #df2d2d;
+   text-align: center;
+   margin-left: 2.5%;
+   margin-top: 20px;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 5px;
+}
+.me_ul input{
+    width: 98%;
+    height: 30px;
+
+}
+.me_div1 span{
+    color: white;
+    font-size: 18px;
+}
+
+.me_div2{
+    margin-top: 5px;
+    width: 95%;
+    display: flex;
+    font-size: 14px;
+    color: red;
+
+}
+.me_div3{
+        margin-left: 24%;
+        margin-top: 20px;
+        font-size: 12px;
+}
+.me_div3 span:nth-of-type(2){
+    color: red;
+
+}
+.me_div2 span:nth-of-type(1){
+    flex:1;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 14px;
+}

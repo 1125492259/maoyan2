@@ -1,0 +1,79 @@
+.nowplaying{
+
+   height: 100%;
+   display: flex;
+   
+}
+.nowplaying .now_left{
+   margin-right: 6px;
+}
+.nowplaying .now_left img{
+	width: 64px;
+	height: 90px;
+	margin-top: 12px;
+}
+.dztppp{
+	    font-size: 17px;
+    color: #333;
+    font-weight: 700;
+    padding-right: 5px;
+    flex-shrink: 1;
+}
+.now_ddd{
+	 display: flex;
+	 padding-top: 10px;
+	 padding-bottom: 15px;
+	 border-bottom: 1px solid #f4f4f4;
+}
+.now_center{
+	    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 200px;
+    white-space: nowrap;
+}
+.now_zy{
+	    margin-top: 6px;
+    line-height: 15px;
+        font-size: 13px;
+    color: #666;
+}
+.now_jt{
+	    margin-top: 6px;
+    line-height: 15px;
+        font-size: 13px;
+    color: #666;
+}
+.now_firstage{
+	display: flex;
+	    max-height: 24px;
+    margin-bottom: 7px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.now_twoage{
+	    font-size: 13px;
+    color: #666;
+
+}
+.now_twoage span:nth-of-type(2){
+	    font-weight: 700;
+    color: #faaf00;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.buy_p{
+	    width: 47px;
+    height: 27px;
+    line-height: 28px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #f03d37;
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 30px;
+    position: relative;
+    left: 40%;
+}

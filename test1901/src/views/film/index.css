@@ -1,0 +1,52 @@
+#film_film{
+  position: relative;
+  top: 50px;
+}
+.film_div{
+
+}
+.active1{
+	color: #ef4238;
+  border-bottom: 1px solid red;
+  position: absolute;
+
+}
+.film_div ul{
+  overflow: hidden;
+  height: 44px;
+  line-height: 44px;
+  display: flex;
+    border-bottom: 1px solid #f2f2f2;
+}
+.ccdd{
+  position: relative;
+  left: 60px;
+}
+.film_div ul li{
+  float: left;
+  flex:1;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  font-size: 12px;
+
+}
+.film_div ul li:nth-of-type(3){
+  font-weight: bold;
+  
+
+}
+.film_div ul li:nth-of-type(2){
+  font-weight: bold;
+}
+.city-entry-arrow {
+    margin-right: 5px;
+    width: 0;
+    height: 0;
+    border: 4px solid #b0b0b0;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: 5px;
+}
